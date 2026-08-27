@@ -158,7 +158,8 @@ function Index() {
             {[
               "To listen before I speak — especially when emotions are high.",
               "To never let a day end with us feeling far apart.",
-              "To be honest, gentle, and fully yours — every single day.",
+              "To start fresh with honesty, gentleness, and full commitment.",
+              "To choose us, every single day, no matter what comes.",
             ].map((promise, i) => (
               <li
                 key={promise}
