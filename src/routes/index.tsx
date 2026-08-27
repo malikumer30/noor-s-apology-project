@@ -32,7 +32,7 @@ function Index() {
 
   return (
     <main className="relative min-h-screen overflow-x-hidden bg-apology-cream px-6 py-16 text-apology-ink sm:px-8 lg:px-12">
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_50%_10%,_oklch(100%_0_0_/_0.5)_0%,_transparent_60%)]" />
+      <div className="apology-glow" />
 
       <article className="relative mx-auto max-w-md">
         <header className="text-center">
