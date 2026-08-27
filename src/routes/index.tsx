@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import heroImage from "../assets/apology-hero.jpg";
 
@@ -135,6 +135,16 @@ function Index() {
             fresh, with more honesty, more care, and more love.
           </p>
         </section>
+
+        <div className="apology-reveal mt-10 text-center">
+          <Link
+            to="/letter"
+            className="inline-flex items-center gap-2 font-sans text-xs font-medium uppercase tracking-[0.2em] text-apology-rose underline-offset-4 transition-colors hover:text-apology-ink hover:underline"
+          >
+            Read my full letter to you
+            <span aria-hidden="true">→</span>
+          </Link>
+        </div>
 
         <figure className="apology-reveal apology-reveal-letter mt-14 rotate-[-1deg] rounded-2xl bg-apology-paper p-3 shadow-xl shadow-apology-ink/5 ring-1 ring-apology-ink/5 transition-transform duration-500 hover:rotate-0 hover:scale-[1.01]">
           <img
