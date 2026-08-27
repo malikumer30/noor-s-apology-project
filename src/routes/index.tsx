@@ -136,12 +136,19 @@ function Index() {
           </p>
         </section>
 
-        <div className="apology-reveal mt-10 text-center">
+        <div className="apology-reveal mt-10 flex flex-col items-center gap-4 text-center">
           <Link
             to="/letter"
             className="inline-flex items-center gap-2 font-sans text-xs font-medium uppercase tracking-[0.2em] text-apology-rose underline-offset-4 transition-colors hover:text-apology-ink hover:underline"
           >
             Read my full letter to you
+            <span aria-hidden="true">→</span>
+          </Link>
+          <Link
+            to="/memories"
+            className="inline-flex items-center gap-2 font-sans text-xs font-medium uppercase tracking-[0.2em] text-apology-rose underline-offset-4 transition-colors hover:text-apology-ink hover:underline"
+          >
+            See our memories
             <span aria-hidden="true">→</span>
           </Link>
         </div>
