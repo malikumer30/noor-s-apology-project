@@ -112,25 +112,27 @@ function Index() {
             className="apology-reveal text-balance font-serif text-2xl font-medium italic leading-relaxed"
             style={{ animationDelay: "0.55s" }}
           >
-            I'm sorry. I know words alone can't mend what I broke, but I hope
-            they can be a beginning.
+            I'm sorry, Noor. These past three weeks without you have shown me
+            how much you truly mean to me.
           </p>
           <p
             className="apology-reveal text-base leading-loose text-apology-ink/85"
             style={{ animationDelay: "0.75s" }}
           >
-            I let you down, and seeing you hurt is the last thing I ever want. In
-            the moments that mattered, I should have been softer, more patient,
-            and more present. You deserve someone who makes you feel safe even on
-            the hard days — and today, I fell short of that.
+            I know we ended things, and I don't take that lightly. I let you down,
+            and seeing you hurt is the last thing I ever want. In the moments that
+            mattered, I should have been softer, more patient, and more present.
+            You deserve someone who makes you feel safe even on the hard days —
+            and I fell short of that.
           </p>
           <p
             className="apology-reveal text-base leading-loose text-apology-ink/85"
             style={{ animationDelay: "0.9s" }}
           >
-            But please know this: you are the best part of my days, and I'm not
-            going to let one mistake turn into a distance between us. I want to
-            listen, to learn, and to be the person you can lean on again.
+            But please know this: you are still the best part of my days, and I'm
+            not ready to let one mistake turn into a distance between us. I'm asking
+            for another chance — not to go back to how things were, but to start
+            fresh, with more honesty, more care, and more love.
           </p>
         </section>
 
@@ -156,7 +158,8 @@ function Index() {
             {[
               "To listen before I speak — especially when emotions are high.",
               "To never let a day end with us feeling far apart.",
-              "To be honest, gentle, and fully yours — every single day.",
+              "To start fresh with honesty, gentleness, and full commitment.",
+              "To choose us, every single day, no matter what comes.",
             ].map((promise, i) => (
               <li
                 key={promise}
@@ -185,13 +188,14 @@ function Index() {
           ) : (
             <div className="space-y-4">
               <p className="mb-6 font-serif text-xl italic text-apology-ink/80">
-                If your heart has any room left, can we try again?
+                I want another chance to love you the way you deserve. Will
+                you let us start again?
               </p>
               <button
                 onClick={() => setForgiven(true)}
                 className="apology-heart inline-flex w-full items-center justify-center rounded-full bg-apology-ink py-4 text-sm font-medium uppercase tracking-widest text-apology-cream shadow-lg shadow-apology-ink/15 transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98]"
               >
-                I forgive you
+                I forgive you — let's try again
               </button>
               <a
                 href="sms:?body=Noor, I read your apology. Can we talk?"
