@@ -188,13 +188,14 @@ function Index() {
           ) : (
             <div className="space-y-4">
               <p className="mb-6 font-serif text-xl italic text-apology-ink/80">
-                If your heart has any room left, can we try again?
+                I want another chance to love you the way you deserve. Will
+                you let us start again?
               </p>
               <button
                 onClick={() => setForgiven(true)}
                 className="apology-heart inline-flex w-full items-center justify-center rounded-full bg-apology-ink py-4 text-sm font-medium uppercase tracking-widest text-apology-cream shadow-lg shadow-apology-ink/15 transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98]"
               >
-                I forgive you
+                I forgive you — let's try again
               </button>
               <a
                 href="sms:?body=Noor, I read your apology. Can we talk?"
