@@ -59,6 +59,29 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  /* Apology page tokens */
+  --color-apology-cream: var(--apology-cream);
+  --color-apology-ink: var(--apology-ink);
+  --color-apology-rose: var(--apology-rose);
+  --color-apology-rose-soft: var(--apology-rose-soft);
+  --color-apology-paper: var(--apology-paper);
+  --color-apology-gold: var(--apology-gold);
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-hand: "Caveat", cursive;
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.6; }
+}
+
+.apology-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 10%, oklch(1 0 0 / 0.5) 0%, transparent 60%);
+  animation: breathe 6s ease-in-out infinite;
 }
 
 :root {
@@ -95,6 +118,13 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  /* Apology page palette */
+  --apology-cream: oklch(0.96 0.015 85);
+  --apology-ink: oklch(0.25 0.035 55);
+  --apology-rose: oklch(0.62 0.12 30);
+  --apology-rose-soft: oklch(0.9 0.035 30);
+  --apology-paper: oklch(0.99 0.01 85);
+  --apology-gold: oklch(0.75 0.1 80);
 }
 
 .dark {
