@@ -166,10 +166,10 @@ function Index() {
           </h2>
           <ul className="mt-8 space-y-6">
             {[
-              "To listen before I speak — especially when emotions are high.",
-              "To never let a day end with us feeling far apart.",
-              "To start fresh with honesty, gentleness, and full commitment.",
-              "To choose us, every single day, no matter what comes.",
+              "I won't be ziddi.",
+              "I won't get upset with you either.",
+              "I won't bother you unnecessarily.",
+              "I won't make any demands.",
             ].map((promise, i) => (
               <li
                 key={promise}
